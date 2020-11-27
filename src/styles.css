@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import 'E:\editorForNg\node_modules\quill\dist\quill.bubble.css'; */
+@import '../node_modules/highlight.js/scss/monokai-sublime.scss';
+/* E:\editorForNg\node_modules\highlight.js\scss\darcula.scss */
+@import '../node_modules/quill/dist/quill.snow.css';
+@import '../node_modules/quill/dist/quill.bubble.css';

@@ -1,0 +1,20 @@
+:host /deep/ .ql-snow .ql-picker.ql-size .ql-picker-label::before,
+:host /deep/.ql-snow .ql-picker.ql-size .ql-picker-item::before {
+  /* content: 'Normal'; */
+  content: '正常';
+}
+:host /deep/.ql-snow .ql-picker.ql-size .ql-picker-label[data-value=small]::before,
+:host /deep/.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=small]::before {
+  /* content: 'Small'; */
+  content: '小号';
+}
+:host /deep/.ql-snow .ql-picker.ql-size .ql-picker-label[data-value=large]::before,
+:host /deep/.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=large]::before {
+  /* content: 'Large'; */
+  content: '大号';
+}
+:host /deep/.ql-snow .ql-picker.ql-size .ql-picker-label[data-value=huge]::before,
+:host /deep/.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=huge]::before {
+  /* content: 'Huge'; */
+  content: '加大';
+}
